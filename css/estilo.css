@@ -88,7 +88,12 @@ h2 {
     border-radius: 15%;
     width: 15%;
     background-color: #ececbc;
-    transform: skew(10deg)
+    
+}
+
+.boton__muestra:hover{
+    transform: scale(1.2);
+    transition: all 1s;
 }
 
 .destacados__titulo {
