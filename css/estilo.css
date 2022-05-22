@@ -314,12 +314,14 @@ footer{
     position: absolute;
     margin-top: 14%;
     width: 70%;
-    -webkit-text-stroke: 1px  #000000;
     border-width: 5px;
     text-align: center;
-    font-size: xx-large;
-    font-style: bold;
-    color: rgb(51, 54, 54);
+    font-family: 'Teko', sans-serif;
+    position:absolute;
+    font-size:xx-large;
+    color: #cbcaa1;
+    -webkit-text-stroke: 1px rgb(77, 76, 73);
+    border-width: 1px;
 
 }
 
@@ -505,7 +507,7 @@ h3{
     margin-bottom: 10%;
     margin-top: 5%;
     padding: 1%;
-    background-color:#ececbc;
+    background-color:#cbcaa1;
     border:2px  #464641 ;
 
 }
@@ -631,21 +633,29 @@ h3{
         margin-left: 45%;
         top: 5%;
     }
+    
 
     .desayuno__info{
         position: absolute;
-        margin-top: 16%;
+        margin-top: 22%;
         width: 80%;
         font-size: medium;
     
     }
 
+    .desayuno__imagen{
+        height: 80%;
+        margin-top: none;
+    }
+
+
     .dulces__imagen{
-        height: 25%;
+        height: 30%;
         width: 40vw;
         border-radius: 2rem;
         padding: 1rem;
         float: left;
+        
     }
 
     .dulces__op{
@@ -676,18 +686,21 @@ h3{
 
     .locales__mapa{
         flex-direction: column;
-        width: 95%;
+        width: 97%;
         height: 50vh;
         padding: 1%;
         margin-top: 1%;
+       
+       
     }
 
     .contacto__targeta{
         margin: 6px;
         width: 70%;
-        height: 60vh;
+        height: 100%;
         margin-left: 15%;
         margin-right: 15%;
+        justify-content: center;
     }
 
     .contacto__input{
@@ -697,10 +710,12 @@ h3{
      }
     
      .suscribirse__btn{
-        margin-left: 40%;
+        margin-left: 36%;
         margin-bottom: 1%;
         margin-top: 10%;
         padding: 1%;
+        
+        
     
     }
 
@@ -788,6 +803,10 @@ h3{
     left: 45%;
     }
 
+    .productos__intro{
+        font-size: small;
+    }
+
     .productos__targetaUno{
         position:relative;
         grid-row: 1/3;
@@ -798,6 +817,7 @@ h3{
     .productos__imagenUno{
         margin-right: 12rem;
         width: 35vw;
+        height: 20vh;
     }
 
     .productos__targetaDos{
@@ -810,6 +830,7 @@ h3{
     .productos__imagenDos{
         margin-right: 12rem;
         width: 35vw;
+        height: 20vh;
     }
 
     .productos__targetaTres{
@@ -822,6 +843,7 @@ h3{
     .productos__imagenTres{
         margin-right: 12rem;
         width: 35vw;
+        height: 20vh;
     }
 
     .productos__subtitulo{
@@ -831,9 +853,9 @@ h3{
     .productos__info{
         position: absolute;
         width: 44vw;
-        font-size: small;
+        font-size: xx-small;
         margin-left: 50%;
-        top: 2%;
+        top: 4%;
     }
 
     .targeta__principal{
@@ -847,35 +869,35 @@ h3{
         grid-row: 1/3;
         grid-column: 1/4;
         justify-items: center;
+        margin-right: 2px;
+        margin-left: 2px;
+        
      
     }
 
     .desayuno__info{
         position: absolute;
-        margin-top: 15%;
+        margin-top: 18%;
         width: 80%;
         font-size: small;
     
     }
 
-    .dulces_targeta{
-        margin-right: 3%;
-        
-    }
-    
 
     .dulces__op{
-        font-size: x-small;
+        font-size: xx-small;
+        width: 50vw;
         
     }
 
     .dulces__imagen{
-        height: 25%;
+        height: 35%;
         width: 45%;
     }
 
     .dulces__info{
         font-size: x-small;
+        width: 35vw;
     }
 
     .salados_targeta{
@@ -884,12 +906,13 @@ h3{
 
     
     .salados__op{
-        font-size: x-small;
+        font-size: xx-small;
+        width: 50vw;
     }
      
     
     .salados__imagen{
-        height: 25%;
+        height: 35%;
         width: 45%;
     }
 
@@ -899,6 +922,7 @@ h3{
 
     .salados__info{
         font-size: x-small;
+        width: 35vw;
     }
 
     .locales{
@@ -908,16 +932,20 @@ h3{
 
     .locales__mapa{
         flex-direction: column;
-        width: 95%;
+        width: 97%;
         height: 50vh;
         padding: 1%;
         margin-top: 1%;
     }
 
+    .locales__info{
+        font-size: small;
+    }
+
     .contacto__targeta{
         margin: 6px;
         width: 70%;
-        height: 70vh;
+        height: 100%;
         margin-left: 15%;
         margin-right: 15%;
     }
@@ -926,6 +954,7 @@ h3{
         margin-top: 15%;
         padding-top: 5px;
         text-align: center;
+        font-size: x-small;
      }
     
      .suscribirse__btn{
@@ -933,7 +962,12 @@ h3{
         margin-bottom: 1%;
         margin-top: 10%;
         padding: 1%;
+        font-size: x-small;
     
+    }
+
+    .footer__info{
+        font-size: small;
     }
 
 }
