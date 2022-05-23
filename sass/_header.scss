@@ -1,0 +1,41 @@
+.header__logo {
+    border-radius: 50%;
+    width: 10%;
+    height: 7%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../recursos/images.jpg);
+    height: 100% ;
+    justify-content: center;
+   
+} 
+
+.navbar{
+    width: 100%;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    
+}
+
+.bg-green{
+    background-color: $main-color;
+   
+}
+
+.collapse{
+    justify-content: center;
+}
+
+a{
+    color: #504f19;
+    
+}
+
+ul{
+    list-style-type: none;
+}
