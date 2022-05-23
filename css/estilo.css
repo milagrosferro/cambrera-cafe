@@ -77,10 +77,10 @@ body {
 h1 {
   font-size: x-large;
   text-align: center;
-  font-family: 'Teko', sans-serif; }
+  font-family: "Teko", sans-serif; }
 
 h2 {
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   text-align: left;
   text-decoration: underline; }
 
@@ -95,7 +95,7 @@ h2 {
     border-radius: 10%;
     width: 85vw; }
   .muestra__info {
-    font-family: 'Teko', sans-serif;
+    font-family: "Teko", sans-serif;
     position: absolute;
     margin-bottom: 5%;
     font-size: xx-large;
@@ -122,7 +122,7 @@ h2 {
   margin: 3%; }
   .destacados__titulo {
     margin: 2%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     padding-left: 2%; }
   .destacados__targetaUno {
     grid-row: 1/4;
@@ -179,7 +179,7 @@ footer {
   text-align: center; }
 
 .titulo {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: center; }
 
 .productos {
@@ -225,7 +225,7 @@ footer {
     width: 50%; }
   .productos__subtitulo {
     text-align: center;
-    font-family: 'Roboto Mono', monospace; }
+    font-family: "Roboto Mono", monospace; }
   .productos__info {
     font-size: larger;
     margin: 5%; }
@@ -248,7 +248,7 @@ footer {
   border-radius: 3%; }
 
 .desayuno__titulo {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: center; }
 
 .desayuno__info {
@@ -257,7 +257,7 @@ footer {
   width: 70%;
   border-width: 5px;
   text-align: center;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   position: absolute;
   font-size: xx-large;
   color: #cbcaa1;
@@ -285,7 +285,7 @@ footer {
   border-radius: 3%; }
 
 .dulces__titulo {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: center; }
 
 .dulces__imagen {
@@ -305,7 +305,7 @@ footer {
 .dulces__name {
   font-weight: bold;
   font-size: larger;
-  font-family: 'Roboto Mono', monospace; }
+  font-family: "Roboto Mono", monospace; }
 
 .dulces__info {
   margin-left: 1rem;
@@ -321,7 +321,7 @@ footer {
   border-radius: 3%; }
 
 .salados__titulo {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: center; }
 
 .salados__imagen {
@@ -341,7 +341,7 @@ footer {
 .salados__name {
   font-weight: bold;
   font-size: large;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   margin: 3px; }
 
 .salados__info {
@@ -354,52 +354,46 @@ footer {
   display: grid;
   grid-template-columns: 2fr;
   grid-template-rows: 250px 250px 250px; }
-
-.locales__targetaUno {
-  grid-column: 1/1;
-  grid-row: 1/2;
-  background-color: #ececbc;
-  margin: 6px;
-  border: 2px solid #949379;
-  width: 95%; }
-
-.locales__targetaDos {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  background-color: #ececbc;
-  margin: 6px;
-  border: 2px solid #949379;
-  width: 95%; }
-
-.locales__targetaTres {
-  grid-column: 1/1;
-  grid-row: 3/3;
-  background-color: #ececbc;
-  margin: 6px;
-  border: 2px solid #949379;
-  width: 95%; }
-
-.locales__mapa {
-  grid-column: 3/3;
-  grid-row: 1/3;
-  width: 50vw;
-  height: 67vh;
-  padding-right: 1%;
-  margin-top: 1%; }
+  .locales__targetaUno {
+    grid-column: 1/1;
+    grid-row: 1/2;
+    background-color: #ececbc;
+    margin: 6px;
+    border: 2px solid #949379;
+    width: 95%; }
+  .locales__targetaDos {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-color: #ececbc;
+    margin: 6px;
+    border: 2px solid #949379;
+    width: 95%; }
+  .locales__targetaTres {
+    grid-column: 1/1;
+    grid-row: 3/3;
+    background-color: #ececbc;
+    margin: 6px;
+    border: 2px solid #949379;
+    width: 95%; }
+  .locales__mapa {
+    grid-column: 3/3;
+    grid-row: 1/3;
+    width: 50vw;
+    height: 75vh;
+    padding-right: 1%;
+    margin-top: 1%; }
+  .locales__img {
+    margin-left: 2%;
+    width: 45%;
+    height: 60%; }
+  .locales__info {
+    margin-left: 2%;
+    font-size: larger; }
 
 h3 {
   margin-left: 2%;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: left;
-  font-size: larger; }
-
-.locales__img {
-  margin-left: 2%;
-  width: 45%;
-  height: 70%; }
-
-.locales__info {
-  margin-left: 2%;
   font-size: larger; }
 
 .contacto__targeta {
