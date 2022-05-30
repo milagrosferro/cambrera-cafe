@@ -422,6 +422,14 @@ h3 {
   background-color: #cbcaa1;
   border: 2px  #464641; }
 
+h1 {
+  font-size: 4rem;
+  color: black; }
+
+h2 {
+  font-size: 2rem;
+  color: black; }
+
 /*tablet*/
 @media (min-width: 541px) and (max-width: 720px) {
   li a {

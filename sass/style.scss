@@ -489,6 +489,15 @@ h3{
 
 }
 
+ $sizes:(h1:4rem, h2:2rem);
+
+    @each $heading, $size in $sizes {
+        #{$heading}{
+            font-size: #{$size};
+            color: black;
+        }
+    }
+
 /*tablet*/
 @media (min-width: 541px) and (max-width: 720px) {
 
